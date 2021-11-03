@@ -1,0 +1,108 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXFileReference section */
+		A1386B332732C2DE009506B6 /* Floor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		A1386B342732C300009506B6 /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
+		A1386B382732CF82009506B6 /* Doors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doors.swift; sourceTree = "<group>"; };
+		A1386B392732CFAE009506B6 /* button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button.swift; sourceTree = "<group>"; };
+		A1386B3A2732D329009506B6 /* ElevatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorController.swift; sourceTree = "<group>"; };
+		A1386B3B2732FD22009506B6 /* FloorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A1386AF62732BFC4009506B6 = {
+			isa = PBXGroup;
+			children = (
+				A1386B372732C326009506B6 /* View */,
+				A1386B362732C318009506B6 /* Controller */,
+				A1386B352732C308009506B6 /* Model */,
+			);
+			sourceTree = "<group>";
+		};
+		A1386B352732C308009506B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1386B342732C300009506B6 /* Elevator.swift */,
+				A1386B332732C2DE009506B6 /* Floor.swift */,
+				A1386B382732CF82009506B6 /* Doors.swift */,
+				A1386B392732CFAE009506B6 /* button.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1386B362732C318009506B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1386B3A2732D329009506B6 /* ElevatorController.swift */,
+				A1386B3B2732FD22009506B6 /* FloorController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1386B372732C326009506B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		A1386AF72732BFC4009506B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+			};
+			buildConfigurationList = A1386AFA2732BFC4009506B6 /* Build configuration list for PBXProject "Elevator System" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1386AF62732BFC4009506B6;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		A1386AFB2732BFC4009506B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		A1386AFC2732BFC4009506B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1386AFA2732BFC4009506B6 /* Build configuration list for PBXProject "Elevator System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1386AFB2732BFC4009506B6 /* Debug */,
+				A1386AFC2732BFC4009506B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1386AF72732BFC4009506B6 /* Project object */;
+}
